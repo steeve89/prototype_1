@@ -1,0 +1,61 @@
+/*#preloader{	
+    position: static;	
+}
+.page-background {	
+    position: static;	
+}
+#mid {	
+    position: static;
+}
+#footer{
+    position: static;
+}
+#content-overlay{
+    position: static;
+}*/
+.foot-items {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* SLIDER */
+.slider-container {
+    margin-top: 138px;
+}
+.left, .right {  
+    
+}
+/* PAGE ACCUEIL */
+#accueil .accueil-1 div div { display: inline-block; width: 29%; }
+#accueil .accueil-1 div div.second { margin: 0 auto; border-left: 2px white solid; border-right: 2px white solid; }
+#accueil .accueil-2 div div { display: inline-block; width: 29%; }
+#accueil .accueil-2 div div.second { margin: 0 auto; border-left: 2px white solid; border-right: 2px white solid; }
+#accueil .accueil-3 div div { display: inline-block; width: 29%; }
+#accueil .accueil-3 div div.second { margin: 0 auto; border-left: 2px white solid; border-right: 2px white solid; }
+/* SIDEBAR */
+.left-sidebar, .right-sidebar  {
+    
+}
+.left-sidebar .content-box{
+	/*rtl:begin:ignore*/
+	float: rigth;
+	margin: 0;
+	padding: 0;
+        width: 69%;
+	/*rtl:end:ignore*/
+}
+.right-sidebar .content-box{
+	/*rtl:begin:ignore*/
+	float: left;
+	margin: 0;
+	padding: 0;
+        width: 69%;
+	/*rtl:end:ignore*/
+}
+.left-sidebar #secondary{
+    float:left;
+}
+.right-sidebar #secondary{
+	margin-left: 7px;
+}
