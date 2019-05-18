@@ -2724,7 +2724,7 @@ header.header-variant-one_line_centered .socials{
 #footer{
     font-size: 10px;
     /*background-color: #1E1E1E;*/
-    background-color: #000000;
+    background-color: #454545;
     width: 100%;
     box-sizing: border-box;
 }
@@ -2744,7 +2744,7 @@ header.header-variant-one_line_centered .socials{
 }
 #footer .foot-items, #footer .foot-widgets {
     /*color: #989898;*/
-    background-color: inherit;
+    background-color: #454545;
 }
 .foot-widgets .foot-content {
     padding: 15px 0 10px;
@@ -2930,7 +2930,7 @@ header.header-variant-one_line_centered .socials{
 	line-height: 1.4em;
 	color: white;
 	text-align: center; /* WooCommerce was overwriting this */
-        background: #03034B;
+        background: #454545;
         padding: 10px;
 }
 
@@ -3210,7 +3210,7 @@ a.rsswidget{
 
 #secondary .widget form[role="search"] input[type="submit"],
 #secondary .widget form[role="search"] button[type="submit"] {
-    background: #6BB75B;
+    background: #0062CC;
     display: block;
     width: 100%;
     border: none;
@@ -9177,18 +9177,18 @@ textarea{
 }
 /* LOGO ET MENU */
 #header { }
-.header-horizontal #header .head { background: white; color: #454545; padding: 10px 10px; border-bottom: 2px #454545 solid; }
+.header-horizontal #header .head { background: #ddd; color: #454545; padding: 10px 10px; border-bottom: 2px #454545 solid; }
 #header .head .menu-container { }
 #header .head .header-left, #header .head .header-rigth { display: inline-block; width: 30%; vertical-align: bottom; padding: 0; margin: 0;}
 #header .head .header-rigth { width: 69.5%; }
 #header .head .service-client { display: block; width: 100%; text-align: center; }
 #header .head .service-client img { margin-right: 5px; }
 #header .head .header-left a, #header .head .header-left a img { padding: 0; margin: 0; }
-#header .head .menu_nav { display: block; background: #03034B; }
+#header .head .menu_nav { display: block; background: #454545; }
 #header .head .menu_nav ul { display: block; list-style-type: none; padding: 0; margin: 0;  }
 #header .head .menu_nav ul li { display: inline-block; }
 #header .head .menu_nav ul li a { display: block; text-decoration: none; padding: 10px; color: white; }
-#header .head .menu_nav ul li a:hover, #header .head .menu_nav ul li a:focus { background: #A67C00; }
+#header .head .menu_nav ul li a:hover, #header .head .menu_nav ul li a:focus { background: #00A7E7; }
 #header .head .menu_nav ul li ul { display: none; position: absolute; background: #454545; margin-left: 20px; }
 #header .head .menu_nav ul li ul li { display: block; }
 #header .head .menu_nav ul li:hover > ul, #header .head .menu_nav ul li:focus > ul { display: block; }
@@ -9341,7 +9341,7 @@ textarea{
     margin-bottom: 10px;
 }
 #secondary .tnp-widget input.tnp-submit {
-    background-color: #5BB75B;
+    background-color: #0062CC;
     background-image: none;
     color: #fff;
     margin: 0;
@@ -9362,7 +9362,7 @@ textarea{
 }
 /* Page Contact */
 .wpcf7-form input[type="submit"], #commentform input[type="submit"] {
-    background: #6BB75B;
+    background: #0062CC;
     display: inline-block;
     border: none;
     box-shadow: none;

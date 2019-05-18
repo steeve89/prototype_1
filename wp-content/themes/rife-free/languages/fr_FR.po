@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-05-09 18:09+0100\n"
-"PO-Revision-Date: 2019-05-10 19:44+0100\n"
+"POT-Creation-Date: 2019-05-14 19:45+0100\n"
+"PO-Revision-Date: 2019-05-15 18:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -12,7 +12,8 @@ msgstr ""
 "X-Generator: Poedit 1.7.7\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;_x;"
+"esc_html_x;esc_attr_x\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress\\wp-content\\themes\\rife-"
 "free\n"
@@ -55,6 +56,18 @@ msgstr ""
 msgid "%s Import &amp; Info"
 msgstr "%s Importer & amp; Info"
 
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/admin.php:135
+msgid "Start typing to filter icons"
+msgstr "Commencez à taper pour filtrer les icônes"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages-functions.php:29
+msgid "Server/WordPress Environment"
+msgstr "Environnement serveur / WordPress"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages-functions.php:36
+msgid "Demo Data Directory"
+msgstr "Répertoire de données de démonstration"
+
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages-functions.php:37
 msgid ""
 "The directory must be writable so downloaded demo data could be saved for "
@@ -67,6 +80,10 @@ msgstr ""
 #, php-format
 msgid "To allow import, make %s writable."
 msgstr "Pour autoriser l'importation, rendez %s accessible en écriture."
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages-functions.php:49
+msgid "WP Memory Limit"
+msgstr "Mémoire limite WP "
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages-functions.php:50
 msgid "The maximum amount of memory (RAM) that your site can use at one time."
@@ -113,6 +130,10 @@ msgstr ""
 "fonction du nombre de plug-ins actifs, vous devez le remplacer par 128 Mo ou "
 "plus. Voir: %2$s"
 
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages-functions.php:75
+msgid "PHP Version"
+msgstr "Version PHP"
+
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages-functions.php:76
 msgid "The version of PHP installed on your hosting server."
 msgstr "La version de PHP installée sur votre serveur d'hébergement."
@@ -131,6 +152,15 @@ msgstr ""
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages-functions.php:88
 msgid "How to update your PHP version"
 msgstr "Comment mettre à jour votre version de PHP"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages-functions.php:94
+msgid "Couldn't determine PHP version because phpversion() doesn't exist."
+msgstr ""
+"Impossible de déterminer la version de PHP car phpversion () n'existe pas."
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages-functions.php:99
+msgid "PHP Time Limit"
+msgstr "PHP limite de temps"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages-functions.php:100
 msgid ""
@@ -152,6 +182,10 @@ msgstr ""
 "vous recommandons de définir au moins 60 si possible, même si ce n'est que "
 "pour le processus d'importation."
 
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages-functions.php:120
+msgid "PHP Post Max Size"
+msgstr ""
+
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages-functions.php:121
 msgid ""
 "The largest file size that can be contained in one post. Recommended 64 MB "
@@ -169,6 +203,10 @@ msgid ""
 msgstr ""
 "%s - une valeur trop basse pour ce paramètre peut causer des problèmes. "
 "Recommandé 64 Mo ou plus."
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages-functions.php:135
+msgid "Max Upload Size"
+msgstr ""
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages-functions.php:136
 msgid ""
@@ -368,7 +406,7 @@ msgstr ""
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages.php:29
 msgid "How to do it is explained in the documentation here."
-msgstr "Comment le faire est expliqué dans la documentation ici."
+msgstr "Comment le faire si c'est expliqué dans la documentation ici."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages.php:60
 msgid "Where to get help?"
@@ -447,7 +485,7 @@ msgstr ""
 "(programmeurs). C’est pourquoi nous vous aiderons également à résoudre les "
 "problèmes causés par d’autres composants (plugins, par exemple) et nous vous "
 "fournirons des instructions pour vous aider à les résoudre, même si ce n’est "
-"pas le cas. directement liée à notre thème."
+"pas directement lié à notre thème."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages.php:86
 #, php-format
@@ -587,7 +625,7 @@ msgid ""
 "you will ever need it."
 msgstr ""
 "Sur ces pages, vous pouvez obtenir des informations sur les nouveautés, "
-"importer des conceptions et obtenir de l'aide si vous en avez besoin."
+"importer des designs et obtenir de l'aide si vous en avez besoin."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/apollo13-pages.php:168
 msgid "Thanks for being with us!"
@@ -664,7 +702,7 @@ msgstr "Coordonnées des personnes"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/metaboxes.php:155
 msgid "Work details"
-msgstr "Détails de travail"
+msgstr "Détails du travail"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/metaboxes.php:164
 msgid "Work media - Add images/videos"
@@ -673,6 +711,14 @@ msgstr "Média - Ajouter des images / vidéos"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/metaboxes.php:277
 msgid "Select/Upload images and videos"
 msgstr "Sélectionner / télécharger des images et des vidéos"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/metaboxes.php:280
+msgid "Add Video from Youtube/Vimeo"
+msgstr "Ajouter une vidéo de Youtube / Vimeo"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/metaboxes.php:281
+msgid "Add items at beginning of the list"
+msgstr "Ajouter des éléments au début de la liste"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/metaboxes.php:283
 msgid "Remove selected"
@@ -685,12 +731,16 @@ msgid ""
 "selecting them with mouse."
 msgstr ""
 "Pour marquer plus d’éléments dans la Médiathèque et dans la liste ci-"
-"dessous, vous pouvez utiliser <code>Ctrl</code> ( <code>Cmd</code> ) ou "
-"<code>Shift</code> clé tout en les sélectionnant avec la souris."
+"dessous, vous pouvez utiliser la touche <code>Ctrl</code> ( <code>Cmd</"
+"code> ) ou <code>Shift</code> tout en les sélectionnant avec la souris."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/print-options.php:123
 msgid "Upload"
 msgstr "Télécharger"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/print-options.php:142
+msgid "Clear field"
+msgstr "Effacer le champ"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/print-options.php:235
 msgid ""
@@ -708,16 +758,24 @@ msgid "Use the \"Transparent\" button to insert a transparent value."
 msgstr ""
 "Utilisez le bouton \"transparent\" pour insérer une valeur transparente."
 
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/print-options.php:237
+msgid "Transparent"
+msgstr "Transparent"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/print-options.php:252
+msgid "Add"
+msgstr "Ajouter"
+
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/print-options.php:269
 msgid ""
 "Use slider to set proper value. You can click on slider handle and then use "
 "arrows keys(on keyboard) to adjust value precisely. You can also type in "
 "input value that is in/out of range of slider, and it will be used."
 msgstr ""
-"Utilisez le curseur pour définir la valeur appropriée. Vous pouvez cliquer "
-"sur la poignée du curseur, puis utiliser les touches fléchées (sur le "
+"Utilisez le slider pour définir la valeur appropriée. Vous pouvez cliquer "
+"sur la poignée du slider, puis utiliser les touches fléchées (sur le "
 "clavier) pour ajuster précisément la valeur. Vous pouvez également taper "
-"dans la valeur d’entrée qui est dans/hors de la plage de curseur, et il sera "
+"dans la valeur d’entrée qui est dans/hors de la plage du slider, et il sera "
 "utilisé."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/admin/print-options.php:299
@@ -756,10 +814,10 @@ msgid ""
 "slug of <a href=\"%2$s\">this post</a> to make sure everything will work "
 "proper."
 msgstr ""
-"Avertissement - le slug réservé à %1$ s est utilisé par un type de message "
-"ou une page. Cela peut causer des problèmes pour atteindre une partie de "
-"votre contenu. Vous devez modifier le slug de <a href=\"%2$s\"> cette "
-"publication </a> pour vous assurer que tout fonctionnera correctement."
+"Avertissement - le slug réservé à %1$ s est utilisé par un article ou une "
+"page. Cela peut causer des problèmes pour atteindre une partie de votre "
+"contenu. Vous devez modifier le slug de <a href=\"%2$s\"> cette publication "
+"</a> pour vous assurer que tout fonctionnera correctement."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/class-apollo13-framework.php:1065
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:2717
@@ -797,8 +855,8 @@ msgid ""
 "%1$s theme requires at least WordPress version %2$s. You are running version "
 "%3$s. Please upgrade and try again."
 msgstr ""
-"%1$s theme requires at least WordPress version %2$s. You are running version "
-"%3$s. Please upgrade and try again."
+"Le thème %1$s nécessite au moins la version WordPress %2$s. Vous utilisez la "
+"version %3$s. Veuillez mettre à niveau et réessayer."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/compatibility.php:44
 #, php-format
@@ -806,8 +864,17 @@ msgid ""
 "%1$s theme requires at least PHP version %2$s. You are running version %3$s. "
 "Please upgrade and try again."
 msgstr ""
-"%1$s theme requires at least PHP version %2$s. You are running version %3$s. "
-"Please upgrade and try again."
+"Le thème %1$s nécessite au moins la version PHP %2$s. Vous utilisez la "
+"version %3$s. Veuillez mettre à niveau et réessayer."
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/cpt-admin.php:108
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/attachment.php:86
+msgid "Edit"
+msgstr "Modifier"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/cpt-admin.php:109
+msgid "Remove item"
+msgstr "Supprimer l'article"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/customizer.php:96
 msgid "There are no albums yet!"
@@ -888,12 +955,12 @@ msgstr "Installer des plugins"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:330
 #, php-format
 msgid "Installing Plugin: %s"
-msgstr "Installation plugin %s"
+msgstr "Installation du plugin %s"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:332
 #, php-format
 msgid "Updating Plugin: %s"
-msgstr "Mise à jour de plugin %s"
+msgstr "Mise à jour du plugin %s"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:333
 msgid "Something went wrong with the plugin API."
@@ -954,6 +1021,10 @@ msgstr ""
 msgid "Please contact the administrator of this site for help."
 msgstr "Veuillez contacter l'administrateur de ce site pour obtenir de l'aide."
 
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Ce plugin doit être mis à jour pour être compatible avec votre thème."
+
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:523
 msgid "Update Required"
 msgstr "Mise à jour requise"
@@ -982,6 +1053,11 @@ msgid ""
 msgstr ""
 "Le paquet de plug-in distant se compose de plusieurs fichiers, mais ceux-ci "
 "ne sont pas empaquetés dans un dossier."
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:1121
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:2948
+msgid "and"
+msgstr "et"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:1982
 #, php-format
@@ -1031,6 +1107,15 @@ msgstr "Nécessite une mise à jour"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:2333
 msgid "Update recommended"
 msgstr "Mise à jour recommandée"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:2342
+#, php-format
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:2482
+msgid "unknown"
+msgstr "Inconnu"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:2490
 msgid "Installed version:"
@@ -1119,13 +1204,11 @@ msgstr ""
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:2800
 msgid "No plugins are available to be installed at this time."
-msgstr ""
-"Aucun plugin n'a été sélectionné pour être installé. Pas d'action prise."
+msgstr "Aucun plugin n'a été sélectionné pour être installé."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:2802
 msgid "No plugins are available to be updated at this time."
-msgstr ""
-"Aucun plugin n'a été sélectionné pour être mis à jour. Pas d'action prise."
+msgstr "Aucun plugin n'a été sélectionné pour être mis à jour."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/class-tgm-plugin-activation.php:2908
 msgid "No plugins were selected to be activated. No action taken."
@@ -1210,6 +1293,10 @@ msgstr "Toutes les installations sont terminées."
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr "Installation du plugin %1$s (%2$d/%3$d)"
 
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/customizer/controls/class-a13-customize-font-control.php:78
+msgid "Font Family"
+msgstr "Famille de polices"
+
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/customizer/controls/class-a13-customize-font-control.php:81
 msgid "Standard Fonts"
 msgstr "Polices standards"
@@ -1218,6 +1305,22 @@ msgstr "Polices standards"
 msgid "Google Webfonts"
 msgstr "Google Webfonts"
 
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/customizer/controls/class-a13-customize-font-control.php:99
+msgid "Font Subsets"
+msgstr "Sous-ensembles de polices"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/customizer/controls/class-a13-customize-font-control.php:106
+msgid "Font Weights & Styles"
+msgstr "Poids et styles de police"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/customizer/controls/class-a13-customize-font-control.php:120
+msgid "Word Spacing"
+msgstr "Espacement des mots"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/customizer/controls/class-a13-customize-font-control.php:124
+msgid "Letter Spacing"
+msgstr "Espacement des lettres"
+
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/customizer/controls/class-a13-customize-font-control.php:129
 msgid ""
 "Sample text with <strong>some bold words</strong>, <em>some italic ones</em> "
@@ -1225,6 +1328,18 @@ msgid ""
 msgstr ""
 "Exemple de texte contenant <strong> des mots en gras</ strong>, <em> des "
 "mots en italique </ em> et des chiffres 1 2 3 4 5 6 7 8 9 :-)"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/customizer/controls/class-a13-customize-sidebars-control.php:49
+msgid "Name of sidebar"
+msgstr "Nom de la barre latérale"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/customizer/controls/class-a13-customize-sidebars-control.php:51
+msgid "Remove this sidebar"
+msgstr "Supprimer cette barre latérale"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/customizer/controls/class-a13-customize-sidebars-control.php:54
+msgid "Add sidebar"
+msgstr "Ajouter la barre latérale"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/customizer/controls/class-a13-customize-spacing-control.php:40
 msgid "Top"
@@ -1254,6 +1369,10 @@ msgstr "Bas"
 msgid "Left"
 msgstr "Gauche"
 
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/inc/customizer/controls/class-a13-customize-spacing-control.php:96
+msgid "Unit"
+msgstr "Unité"
+
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:12
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2088
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2301
@@ -1269,7 +1388,7 @@ msgstr "Taille de la brique"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:19
 msgid "What should be the width of this post on the Posts list?"
 msgstr ""
-"Quelle devrait être la largeur de ce message dans la liste des messages?"
+"Quelle devrait être la largeur de l'article dans la liste des articles?"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:37
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:663
@@ -1527,7 +1646,7 @@ msgstr "Oui masquer le contenu"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:107
 msgid "Yes, hide the content and add top padding to the outside title bar."
 msgstr ""
-"Oui, masquez le contenu et ajoutez un remplissage supérieur à la barre de "
+"Oui, masquez le contenu et ajoutez une marge intérieur haut à la barre de "
 "titre extérieure."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:104
@@ -2149,7 +2268,7 @@ msgstr "Les deux sur"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1787
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2116
 msgid "Only top"
-msgstr "Seulement top"
+msgstr "Seulement en haut"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:373
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1788
@@ -2221,7 +2340,7 @@ msgstr "Off"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:408
 msgid "Sidebar to show"
-msgstr "Encadré à afficher"
+msgstr "Barre latérale à afficher"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:445
 msgid "Show header from the Nth row"
@@ -2275,7 +2394,7 @@ msgid ""
 msgstr ""
 "Cela ne fonctionne que lorsque la page est conçue avec WPBakery Page "
 "Builder. Lorsque cette option est activée, la page se transforme en un "
-"curseur vertical atteignant toute la hauteur de la fenêtre du navigateur et "
+"slider vertical atteignant toute la hauteur de la fenêtre du navigateur et "
 "chaque ligne créée dans le générateur de pages WPBakery est une seule "
 "diapositive."
 
@@ -2340,16 +2459,12 @@ msgstr ""
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:833
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1360
 msgid "First on the list, first displayed"
-msgstr ""
-"Premier sur la liste, premier affiché\n"
-"Premier sur la liste, dernier affiché"
+msgstr "Premier sur la liste, premier affiché"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:834
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1361
 msgid "First on the list, last displayed"
-msgstr ""
-"Premier sur la liste, premier affiché\n"
-"Premier sur la liste, dernier affiché"
+msgstr "Premier sur la liste, dernier affiché"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:835
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1362
@@ -2366,7 +2481,7 @@ msgid ""
 "If enabled, then it will affect displaying in bricks and slider option, and "
 "also in lightbox."
 msgstr ""
-"Si cette option est activée, l'affichage dans les briques et le curseur, "
+"Si cette option est activée, l'affichage dans les briques et le slider, "
 "ainsi que dans la visionneuse, sera affecté."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:851
@@ -2641,7 +2756,7 @@ msgstr "En bas à gauche"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:3726
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:4472
 msgid "Bottom center"
-msgstr "Bas du centre"
+msgstr "En bas et au centre"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:973
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1484
@@ -2796,7 +2911,7 @@ msgstr "Lecture automatique"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:5037
 msgid "If autoplay is on, slider will run on page load."
 msgstr ""
-"Si la lecture automatique est activée, le curseur s'exécutera au chargement "
+"Si la lecture automatique est activée, le slider s'exécutera au chargement "
 "de la page."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1083
@@ -2849,12 +2964,12 @@ msgstr "Quelle sera l'ampleur de l'effet de zoom"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1114
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1657
 msgid "Gradient above photos"
-msgstr "Gradient au-dessus des photos"
+msgstr "Dégradé au-dessus des photos"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1115
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1658
 msgid "Good for better readability of slide titles."
-msgstr "Gradient au-dessus des photos"
+msgstr "Bon pour une meilleur visibilité des titres du slider"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1126
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1669
@@ -3004,13 +3119,13 @@ msgstr "Liste des travaux"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1314
 msgid "What should be the width of this work on the Works list?"
-msgstr "Quelle devrait être la charge de ce travail sur la liste des travaux?"
+msgstr "Quelle devrait être la charge de travail dans  la liste des travaux?"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1325
 msgid "Works only when titles are displayed over images in the Works list."
 msgstr ""
 "Ne fonctionne que lorsque les titres sont affichés sur les images de la "
-"liste Works."
+"liste des travaux."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1330
 msgid "Exclude from the Works list page"
@@ -3022,7 +3137,7 @@ msgid ""
 "you can still select it for the front page or in other places."
 msgstr ""
 "Si cette option est activée, alors ces travaux ne seront pas répertoriés sur "
-"la page de liste des travaux, mais vous pouvez toujours sélectionnez-le pour "
+"la page de liste des travaux, mais vous pouvez toujours le sélectionnez pour "
 "la page de couverture ou ailleurs."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1349
@@ -3039,7 +3154,7 @@ msgstr "Ne pas afficher"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1565
 msgid "Stretch the slider to the window height"
-msgstr "Étirer le curseur à la hauteur de la fenêtre"
+msgstr "Étirer le slider à la hauteur de la fenêtre"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/meta.php:1576
 msgid "Slider - width proportion"
@@ -3122,7 +3237,7 @@ msgstr ""
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/sidebars.php:17
 msgid "Post sidebar"
-msgstr "Bar latérale de l'article"
+msgstr "Barre latérale de l'article"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/sidebars.php:18
 msgid "Widgets from this sidebar will appear in single posts."
@@ -3141,6 +3256,7 @@ msgstr ""
 "Les widgets de cette barre latérale apparaîtront dans des pages statiques."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/sidebars.php:27
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/header.php:250
 msgid "Shop sidebar"
 msgstr " Barre latérale de la boutique"
 
@@ -3155,7 +3271,7 @@ msgstr ""
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/sidebars.php:32
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:651
 msgid "Hidden sidebar"
-msgstr "Encadré caché"
+msgstr "Barre latérale cachée"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/sidebars.php:33
 msgid ""
@@ -3185,16 +3301,16 @@ msgstr ""
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/sidebars.php:42
 msgid "Header(vertical) default widget area"
-msgstr "Zone du widget par en-tête (vertical)"
+msgstr "En-tête (vertical) de la zone du widget par défaut "
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/sidebars.php:43
 msgid "Widgets from this area will appear in vertical header only."
 msgstr ""
-"Les widgets de cette zone apparaîtront uniquement dans l'en-tête vertical."
+"Les widgets de cette zone apparaîtront uniquement dans l'en-tête verticale."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/sidebars.php:47
 msgid "Footer widget area(Header horizontal)"
-msgstr "Widget Zone du widget Pied de page (en-tête horizontal)"
+msgstr "Widget Zone du widget pied de page (en-tête horizontal)"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/sidebars.php:48
 msgid ""
@@ -3307,8 +3423,8 @@ msgid ""
 msgstr ""
 "Si vous choisissez <strong> Page </ strong>, assurez-vous que, dans les <a "
 "href=\\\"%s\\\"> paramètres de la page d'accueil WordPress </a>, vous avez "
-"sélectionné <strong> Une page statique </ strong>: vous souhaitez utiliser "
-"comme page d'accueil."
+"sélectionné <strong> Une page statique </ strong>,que vous souhaitez "
+"utiliser comme page d'accueil."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:175
 msgid "Page"
@@ -3325,7 +3441,7 @@ msgstr "Blog"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:4941
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:5027
 msgid "Single album"
-msgstr "Que montrer sur la première page?"
+msgstr "Album unique"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:179
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:4111
@@ -3350,7 +3466,7 @@ msgstr "Disposition générale"
 #, php-format
 msgid "<strong>Layout boxed & bordered are available in %s.</strong>"
 msgstr ""
-"<Strong> Les mises en forme encadrées et bordées sont disponibles dans% s. "
+"<Strong> Les mises en forme encadrées et bordées sont disponibles dans %s. "
 "</ Strong>"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:253
@@ -3376,7 +3492,7 @@ msgstr "Curseur"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:274
 msgid "Custom cursor image"
-msgstr "Personnalisation du curseur de Image de curseur personnalisée"
+msgstr "Personnalisation du curseur de Image"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:282
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:291
@@ -3397,11 +3513,11 @@ msgid ""
 "the preloader is hidden, you can still see the loading of images. This is a "
 "much safer option."
 msgstr ""
-"<strong> Au chargement </strong> est appelé lorsque tout le site, avec "
-"toutes les images, est chargé, ce qui peut prendre beaucoup de temps sur des "
+"<strong> Au chargement </strong> est appelé tout le site, avec toutes les "
+"images, qui sont chargées, ce qui peut prendre beaucoup de temps sur des "
 "sites plus lourds et même plus sur des appareils mobiles. En outre, il peut "
 "parfois se bloquer et ne jamais masquer le préchargeur, en cas de problème "
-"avec une ressource. <br /> <strong> Sur le DOM prêt </strong> est appelée "
+"avec une ressource. <br /> <strong> Le DOM prêt </strong> est appelée "
 "lorsque tout le code HTML avec CSS est chargé. Ainsi, une fois le "
 "préchargeur masqué, vous pouvez toujours voir le chargement des images. "
 "C'est une option beaucoup plus sûre."
@@ -3412,7 +3528,7 @@ msgstr "Si  le DOM est prêt"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:303
 msgid "On load"
-msgstr "En charge"
+msgstr "Au chargement"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:349
 msgid "none"
@@ -3492,8 +3608,8 @@ msgid ""
 "Theme header is a place where you usually find the logo of your site, main "
 "menu, and a few other elements."
 msgstr ""
-"Header En-tête de thème est un endroit où vous trouverez généralement le "
-"logo de votre site, le menu principal et quelques autres éléments."
+"L'en-tête de thème est un endroit où vous trouverez généralement le logo de "
+"votre site, le menu principal et quelques autres éléments."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:399
 msgid ""
@@ -3601,7 +3717,7 @@ msgstr "Couleurs des widgets"
 msgid "Depending on what background you have set up, choose proper option."
 msgstr ""
 "En fonction de l'arrière-plan que vous avez configuré, choisissez l'option "
-"appropriée.Dark sur noir"
+"appropriée."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:569
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:680
@@ -3647,7 +3763,7 @@ msgstr "Taille de la police"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:611
 msgid "Widgets part"
-msgstr "Widgets part"
+msgstr "Partie du widgets"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:624
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:633
@@ -3845,7 +3961,7 @@ msgstr ""
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:911
 msgid "Lightbox settings"
-msgstr "Settings Paramètres de la visionneuse"
+msgstr "Paramètres de la visionneuse"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:912
 msgid ""
@@ -3993,7 +4109,7 @@ msgstr "Une ligne, logo sur le côté"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:1160
 msgid "One line, menu centered"
-msgstr "Une ligne, centré sur le menu"
+msgstr "Une ligne, le menu est centré"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:1168
 msgid "Header color variants"
@@ -4127,7 +4243,8 @@ msgstr "sur le bureau"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:1717
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:1747
 msgid "It works only on large screens(1025px wide or more)."
-msgstr "Cela ne fonctionne que sur les grands écrans (1025px large ou plus)."
+msgstr ""
+"Cela ne fonctionne que sur les grands écrans (1025px de large ou plus)."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:1346
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:1450
@@ -4135,7 +4252,7 @@ msgstr "Cela ne fonctionne que sur les grands écrans (1025px large ou plus)."
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:1761
 msgid "It works only on mobile devices(1024px wide or less)."
 msgstr ""
-"Cela ne fonctionne que sur les appareils mobiles (1024px large ou moins)."
+"Cela ne fonctionne que sur les appareils mobiles (1024px de large ou moins)."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:1359
 msgid "Height"
@@ -4155,8 +4272,8 @@ msgid ""
 "If you use more than one word in the logo, you can use <code>&amp;nbsp;</"
 "code> instead of a white space, so the words will not break into many lines."
 msgstr ""
-"Si vous utilisez plusieurs mots dans le logo, vous pouvez utiliser <code> & "
-"amp; nbsp; </ code> à la place d'un espace blanc, afin que les mots ne se "
+"Si vous utilisez plusieurs mots dans le logo, vous pouvez utiliser <code> "
+"&amp; nbsp; </ code> à la place d'un espace blanc, afin que les mots ne se "
 "divisent pas en plusieurs lignes."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:1395
@@ -4165,7 +4282,7 @@ msgid ""
 "If you want to change the font for logo go to <a href=\"%s\">Font settings</"
 "a>."
 msgstr ""
-"Si vous souhaitez modifier la police du logo, accédez à <a href=\\\"%s\\\"> "
+"Si vous souhaitez modifier la police du logo, accédez à <a href=\"%s\"> "
 "Paramètres de police </a>."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:1464
@@ -4335,7 +4452,13 @@ msgid ""
 "in %s.</strong>"
 msgstr ""
 "<strong> Les paramètres pour les icônes d'outils individuels et les icônes "
-"animées sont disponibles dans% s. </strong>"
+"animées sont disponibles dans %s. </strong>"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:1927
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/header.php:251
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/layout-parts.php:522
+msgid "Search"
+msgstr "Rechercher"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:1935
 msgid "If left empty then the button will not be displayed."
@@ -4352,7 +4475,8 @@ msgstr "Ouvrir le lien dans un nouvel onglet"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2042
 msgid "Posts list refers to Blog, Search and Archives pages"
 msgstr ""
-"La liste des articles fait référence aux pages Blog, Recherche et Archives"
+"La liste des posts fait référence aux pages de blog, de recherche et "
+"d'archives"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2050
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2704
@@ -4443,7 +4567,7 @@ msgstr ""
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:4615
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:4622
 msgid "Lazy load"
-msgstr "Lazy load"
+msgstr "Chargement lente"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2202
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2866
@@ -4461,14 +4585,14 @@ msgstr "Sur le défilement"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2211
 msgid "Display \"Read more\" link"
-msgstr "Afficher le lien \"En savoir plus\""
+msgstr "Afficher le lien \"Lire la suite\""
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2212
 msgid ""
 "Should \"Read more\" link be displayed after excerpts on blog list/search "
 "results."
 msgstr ""
-"Le lien  \"En savoir plus\" doit-il être affiché après des extraits de la "
+"Le lien  \"Lire la suite\" doit-il être affiché après des extraits de la "
 "liste de blogs / des résultats de recherche?"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2219
@@ -4483,9 +4607,9 @@ msgid ""
 "truncated automatically.<br /> This setting only concerns blog list, archive "
 "list, search results."
 msgstr ""
-"En mode manuel, les extraits ne sont utilisés que si vous ajoutez le \\ "
-"\"Read More Tag \\\" (& lt;! - more - & gt;). <br /> En mode automatique, si "
-"vous ne fournissez pas le \\ \"Lire la suite\" ou un extrait explicite, le "
+"En mode manuel, les extraits ne sont utilisés que si vous ajoutez le mot-"
+"clés \"Lire la suite \" (& lt;! - more - & gt;). <br /> En mode automatique, "
+"si vous ne fournissez pas le \"Lire la suite\" ou un extrait explicite, le "
 "contenu de l'article sera automatiquement tronqué. <br /> Ce paramètre ne "
 "concerne que la liste de blogs, la liste d'archives et les résultats de la "
 "recherche."
@@ -4500,7 +4624,7 @@ msgstr "Manuel"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2231
 msgid "Number of words to cut post"
-msgstr "Nombre de mots pour couper un article"
+msgstr "Nombre de mots pour couper un poste"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2232
 msgid "After this many words post will be cut in the automatic mode."
@@ -4509,7 +4633,7 @@ msgstr "Après cela, beaucoup de mots après seront coupés en mode automatique.
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2243
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2467
 msgid "Display post Media"
-msgstr "Afficher le post Media"
+msgstr "Afficher le poste Media"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2244
 msgid ""
@@ -4517,7 +4641,7 @@ msgid ""
 "the post brick."
 msgstr ""
 "Vous pouvez choisir de ne pas afficher de média de publication (image / "
-"vidéo / curseur en vedette) à l'intérieur de la brique de publication."
+"vidéo / slider en vedette) à l'intérieur de la brique de publication."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2251
 msgid "Display of posts video"
@@ -4530,8 +4654,8 @@ msgid ""
 "when the videos are used."
 msgstr ""
 "Vous pouvez configurer l'affichage des vidéos en tant qu'image sélectionnée "
-"dans la liste des messages. Cela peut accélérer le chargement des pages "
-"contenant de nombreux articles (blog, archives, résultats de recherche) "
+"dans la liste des postes. Cela peut accélérer le chargement des pages "
+"contenant de nombreux postes (blog, archives, résultats de recherche) "
 "lorsque les vidéos sont utilisées."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2259
@@ -4543,7 +4667,7 @@ msgstr ""
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2502
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2509
 msgid "Post info"
-msgstr "Post info"
+msgstr "Poste info"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2259
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2483
@@ -4582,6 +4706,7 @@ msgstr "Nombre de commentaires"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2285
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2509
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:3887
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/no-content.php:31
 msgid "Categories"
 msgstr "Catégories"
 
@@ -4672,7 +4797,7 @@ msgstr "Texte en superposition"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2789
 msgid "Text under photo"
-msgstr "Texte sous photo"
+msgstr "Texte sous la photo"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:2798
 msgid "Texts to left"
@@ -4743,8 +4868,8 @@ msgid ""
 "this."
 msgstr ""
 "Lorsque WooCommerce est activé, le bouton d'ouverture de ce panier apparaît "
-"dans l'en-tête. Il doit également y avoir des widgets actifs dans  \"Panier "
-"sidebar \" pour cela."
+"dans l'en-tête. Il doit également y avoir des widgets actifs dans  la "
+"\"Barre latérale du Panier \" pour cela."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:3236
 msgid ""
@@ -4819,11 +4944,12 @@ msgstr "Défaut mais je veux changer l'image de fond"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:3597
 msgid "Password protected page template"
-msgstr "Template Modèle de page protégé par mot de passe"
+msgstr "Modèle de page protégé par mot de passe"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:3635
 msgid "These will work for Works list and single work."
-msgstr "Ceux-ci fonctionneront pour la liste Works et le travail individuel."
+msgstr ""
+"Ceux-ci fonctionneront pour la liste des travaux et le travail individuel."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:3681
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:4438
@@ -4869,7 +4995,7 @@ msgstr "Titre sur la photo"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:3710
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:4456
 msgid "Title under photo"
-msgstr "Titre sous photo"
+msgstr "Titre sous la photo"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:3752
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:3761
@@ -4951,7 +5077,7 @@ msgstr "Temps entre les diapositives"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:4360
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:4371
 msgid "Global for all works."
-msgstr "Global pour tous les travaux."
+msgstr "Générale pour tous les travaux."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:4360
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:5069
@@ -5002,11 +5128,11 @@ msgstr "Peut être remplacé dans chaque album."
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:5045
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:5069
 msgid "Global for all albums."
-msgstr "Global pour tous les albums."
+msgstr "Générale pour tous les albums."
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:5089
 msgid "Single album Social icons"
-msgstr "Single album Icônes sociales"
+msgstr "Icônes sociales pour un album unique"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/theme-options.php:5090
 msgid ""
@@ -5111,7 +5237,7 @@ msgid ""
 "slower writing."
 msgstr ""
 "Combien de ms devrait passer entre l'impression de chaque caractère. Une "
-"plus grande valeur est une écriture plus lente.Retour à% s"
+"plus grande valeur est une écriture plus lente.Retour à %s"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt-album.php:55
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt-album.php:65
@@ -5127,6 +5253,7 @@ msgstr "Retour à %s "
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt-album.php:151
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt-work.php:158
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt-work.php:161
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt.php:931
 msgid "Previous"
 msgstr "Précédent"
 
@@ -5134,6 +5261,7 @@ msgstr "Précédent"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt-album.php:160
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt-work.php:167
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt-work.php:170
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt.php:932
 msgid "Next"
 msgstr "Suivant"
 
@@ -5151,7 +5279,7 @@ msgstr ""
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt-work.php:546
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/vc-extend.php:50
 msgid "This content is password protected"
-msgstr "Ce contenu est protégé par mot de passe"
+msgstr "Ce contenu est protégé par un mot de passe"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt-album.php:550
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt-people.php:274
@@ -5168,9 +5296,54 @@ msgid "Website"
 msgstr "Site web"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt.php:1538
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt.php:1562
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/layout-parts.php:1253
 msgid "All"
 msgstr "Tous"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt.php:1563
+msgid "Selected"
+msgstr "sélectionné"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt.php:1564
+msgid "Not selected"
+msgstr "Non sélectionné"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt.php:1565
+msgid "Commented"
+msgstr "Commenté"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt.php:1568
+msgid ""
+"When you are done with commenting and selecting photos/videos, click this "
+"button."
+msgstr ""
+"Lorsque vous avez terminé avec les commentaires et la sélection de photos / "
+"vidéos, cliquez sur ce bouton."
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt.php:1568
+msgid "I am done with Selecting Items"
+msgstr "J'en ai fini avec la sélection d'éléments"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt.php:1569
+msgid "Working ..."
+msgstr "Travailler ..."
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/cpt.php:1570
+msgid "Accepted Items:"
+msgstr "Articles acceptés:"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/header.php:252
+msgid "More info"
+msgstr "Plus d'infos"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/header.php:253
+msgid "Main menu"
+msgstr "Menu principal"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/layout-parts.php:513
+msgid "Search &hellip;"
+msgstr "Rechercher"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/layout-parts.php:1114
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/posts.php:187
@@ -5178,6 +5351,14 @@ msgstr "Tous"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/page.php:58
 msgid "Pages: "
 msgstr "Pages:"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/password.php:13
+msgid "password"
+msgstr "Mot de passe"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/password.php:13
+msgid "Submit"
+msgstr "Soumettre"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/posts.php:42
 msgid "Updated: "
@@ -5187,6 +5368,12 @@ msgstr "Mise à jour:"
 #, php-format
 msgid "by %s "
 msgstr "par %s"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/posts.php:140
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/attachment.php:53
+#, php-format
+msgid "View all posts by %s"
+msgstr "Afficher tous les articles de %s"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/posts.php:260
 msgid "Previous article"
@@ -5201,7 +5388,11 @@ msgstr "Article suivant"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/content.php:30
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/content.php:38
 msgid "Read more"
-msgstr "En savoir plus"
+msgstr "Lire la suite"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/posts.php:376
+msgid "Comment navigation"
+msgstr "Navigation dans les commentaires"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/posts.php:379
 msgid "Older Comments"
@@ -5211,10 +5402,17 @@ msgstr "Anciens commentaires"
 msgid "Newer Comments"
 msgstr "Commentaires récents"
 
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/posts.php:540
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/vc-extend.php:52
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/password-template.php:41
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/single-work-ajax.php:15
+msgid "To view it please enter your password below"
+msgstr "Pour le voir, veuillez entrer votre mot de passe ci-dessous"
+
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/woocommerce.php:102
 #, php-format
 msgid "View all posts in %s"
-msgstr "Afficher tous les articles dans% s"
+msgstr "Afficher tous les articles dans %s"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/woocommerce.php:320
 msgid "Out of stock"
@@ -5228,10 +5426,9 @@ msgstr "Vente"
 msgid "New"
 msgstr "Nouveau"
 
-#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/vc-extend.php:52
-#: C:\wamp\www\wordpress\wp-content\themes\rife-free/password-template.php:41
-msgid "To view it please enter your password below"
-msgstr "Pour le voir, veuillez entrer votre mot de passe ci-dessous"
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/utilities/woocommerce.php:598
+msgid "Go to shop"
+msgstr "Aller à la boutique"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/advance/vc-extend.php:112
 msgid "in"
@@ -5240,17 +5437,21 @@ msgstr "Dans"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/archives-template.php:42
 #, php-format
 msgid "Latest %d posts"
-msgstr "Derniers% d posts"
+msgstr "Derniers %d posts"
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/archives-template.php:54
+msgid "By months"
+msgstr "Par mois"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/archives-template.php:66
 #, php-format
 msgid "Top %d categories"
-msgstr "Top% d catégories"
+msgstr "Top %d catégories"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/archives-template.php:81
 #, php-format
 msgid "Top %d tags"
-msgstr "Top% d tags"
+msgstr "Top %d tags"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/attachment.php:41
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/attachment.php:43
@@ -5273,9 +5474,9 @@ msgstr "Publié %1$s"
 msgid "Full size is %s pixels"
 msgstr "La taille maximale est% s pixels"
 
-#: C:\wamp\www\wordpress\wp-content\themes\rife-free/attachment.php:86
-msgid "Edit"
-msgstr "Modifier"
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/attachment.php:77
+msgid "Link to full-size image"
+msgstr "Lien vers l'image en taille réelle"
 
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/category.php:42
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/index.php:42
@@ -5329,6 +5530,10 @@ msgstr "Archives du blog"
 msgid "%d comment(s)"
 msgstr "%d commentaire (s)"
 
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/comments.php:50
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/header-variants/horizontal-one-line.php:38
 msgid "SERVICE CLIENT AU +33 00 00 00 00"
 msgstr "SERVICE CLIENT AU +33 00 00 00 00"
@@ -5346,6 +5551,10 @@ msgstr "Retourner"
 msgid "Main navigation"
 msgstr "Navigation principale"
 
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/no-content.php:38
+msgid "Pages"
+msgstr "Pages"
+
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/no-content.php:55
 msgid "Albums"
 msgstr "Albums"
@@ -5353,6 +5562,18 @@ msgstr "Albums"
 #: C:\wamp\www\wordpress\wp-content\themes\rife-free/password-template.php:39
 msgid "This content is password protected."
 msgstr "Ce contenu est protégé par mot de passe."
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/searchwp-live-ajax-search/search-results.php:43
+msgid "View all results"
+msgstr "Afficher tous les résultats."
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/searchwp-live-ajax-search/search-results.php:46
+msgid "No results found."
+msgstr "Aucun résultat trouvé."
+
+#: C:\wamp\www\wordpress\wp-content\themes\rife-free/searchwp-live-ajax-search/search-results.php:47
+msgid "Please try another search term"
+msgstr "S'il vous plaît essayer un autre terme de recherche."
 
 #~ msgid "rife-free theme, copy is forbidden."
 #~ msgstr "rife-free, copy interdite"

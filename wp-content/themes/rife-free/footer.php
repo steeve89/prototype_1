@@ -39,6 +39,7 @@ apollo13framework_footer_for_site_modules();
     }
     .layout-full #content, .layout-full_fixed #content, .layout-full_padding #content, .default404 .page-background, body.password-protected .page-background, .posts-list.search-no-results .layout-full #content, .posts-list.search-no-results .layout-full_fixed #content, .posts-list.search-no-results .layout-full_padding #content, .bricks-frame .formatter, .posts_horizontal .archive-item, .variant-under .caption, .works-list-page .pre-content-box, .single-album .album-content, .single-album .formatter { background: none; }
     .layout-parted .content-box, .albums-list-page .pre-content-box, .posts-list .layout-full_padding #secondary, .posts-list .layout-full_fixed #secondary, .posts-list .layout-full #secondary, .layout-parted #secondary, .posts-list.search-no-results .layout-parted .content-box { background: #fff; }
+    #footer { background: #454545; }
 </style>
 </body>
 </html>
