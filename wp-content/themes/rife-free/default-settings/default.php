@@ -23,7 +23,7 @@
   "header_switch": "on",
   "footer_switch": "on",
   "footer_widgets_columns": "5",
-  "footer_text": "Copyright © 2019 SDI GREEN",
+  "footer_text": "Copyright © 2019 PROTOTYPE",
   "footer_socials": "on",
   "footer_socials_color": "white",
   "footer_socials_color_hover": "color",

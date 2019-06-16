@@ -456,7 +456,7 @@ body{
 	position: relative;
 	z-index: 2; /* above background */ /* padding is for full screen, rest for "to-move" class */
 	transition: transform .5s;
-        margin: 10px;
+        margin: 10px 10px 10px;
         padding: 0;
         width: 100%;
 }
@@ -2728,7 +2728,7 @@ header.header-variant-one_line_centered .socials{
     width: 100%;
     box-sizing: border-box;
 }
-#footer a { color: white; }
+#footer a, #footer .foot-widgets .widget .textwidget address { color: white; }
 .foot-items, #footer .foot-widgets{
     margin: 0 auto;
     padding: 0 70px;
@@ -9398,6 +9398,35 @@ textarea{
 .marginb10 { margin-bottom: 10px; }
 .paddinglandr10 { padding: 0 10px; }
 .paddingr10 { padding-right: 10px; }
+.center { text-align: center; }
+/* Content search */
+.content-box .real-content .search-form fieldset {
+    text-align: center; 
+}
+.content-box .real-content .search-form input[type="search"] {
+    margin-right: 20px;
+}
+.content-box .real-content .search-form input[type="submit"],
+.content-box .real-content .search-form button[type="submit"] {
+    background: #0062cc;
+    display: inline-block;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: none;
+    line-height: 42px;
+    white-space: nowrap;
+    height: 40px;
+    /*padding: 10px;*/
+    -webkit-border-radius: 0;
+                    border-radius: 0;
+    margin-top: 10px; 
+}
 /* Contenu accueil */
 #accueil {}
 #accueil .accueil-1 { background: none; text-align: center; color: black; padding: 0; margin: 0; border-bottom: 2px #454545 solid; }

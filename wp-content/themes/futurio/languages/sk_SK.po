@@ -1,0 +1,220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Futurio\n"
+"POT-Creation-Date: 2019-01-17 12:47+0100\n"
+"PO-Revision-Date: 2019-01-17 13:02+0100\n"
+"Language-Team: Futurio <info@futuriowp.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Last-Translator: \n"
+"Language: sk_SK\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib/plugin-update-checker\n"
+
+#: 404.php:37
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Túto stránku nemožno nájsť."
+
+#: 404.php:40
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Vyzerá to, že tu naozaj nič nie je. Možno skúste vyhľadávania?"
+
+#: comments.php:18
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Jeden komentár pro &ldquo;%s&rdquo;"
+
+#: comments.php:23
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s komentár k &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s komentáre k &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s komentárov k &ldquo;%2$s&rdquo;"
+
+#: comments.php:55
+msgid "Comments are closed."
+msgstr "Komentáre sú uzavreté."
+
+#: content-none.php:2
+msgid "Nothing Found"
+msgstr "Nič sme nenašli"
+
+#: content-none.php:8
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Pripravený publikovať váš prvý článok? <a href=\"%1$s\">Začnite tu</a>."
+
+#: content-none.php:14
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Ľutujeme, hľadaný výraz sa nenašiel. Prosím, skúste iné kľúčové slová."
+
+#: content-none.php:19
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Zdá sa, že nemôžete nájsť, čo hľadáte. Snáď pomôže vyhľadávania."
+
+#: functions.php:25
+msgid "Main Menu"
+msgstr "Hlavné Menu"
+
+#: functions.php:26
+msgid "Homepage main menu"
+msgstr "Hlavná ponuka domovskej stránky"
+
+#: functions.php:209
+msgid "Sidebar"
+msgstr "Bočný panel"
+
+#: functions.php:219
+msgid "Archive sidebar"
+msgstr "Bočný panel archívu"
+
+#: functions.php:229
+msgid "Menu Section"
+msgstr "Menu sekcia"
+
+#: functions.php:239
+msgid "Footer Section"
+msgstr "Sekcia zápätie"
+
+#: functions.php:250
+msgid "WooCommerce Sidebar"
+msgstr "WooCommerce sidebar"
+
+#: functions.php:260
+msgid "WooCommerce archive sidebar"
+msgstr "WooCommerce sidebar pro archív"
+
+#: functions.php:316
+msgid "Posted in"
+msgstr "Publikované v"
+
+#: functions.php:320
+msgid "Tags"
+msgstr "Štítky"
+
+#: functions.php:344
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Web běží na %s"
+
+#: functions.php:344
+msgid "https://wordpress.org/"
+msgstr "https://sk.wordpress.org/"
+
+#: functions.php:349
+#, php-format
+msgid "Theme: %1$s"
+msgstr "Téma: %1$s"
+
+#: functions.php:379
+msgid "Off"
+msgstr "Off"
+
+#: functions.php:382
+msgid "Comment on "
+msgstr "Komentovať "
+
+#: functions.php:515
+msgid "Previous Post"
+msgstr "Predchádzajúci príspevok"
+
+#: functions.php:515
+msgid "Previous"
+msgstr "Predchádzajúca"
+
+#: functions.php:516
+msgid "Next Post"
+msgstr "Nasledujúci príspevok"
+
+#: functions.php:516
+msgid "Next"
+msgstr "Nasledujúca"
+
+#: functions.php:531
+msgid "By"
+msgstr "Od"
+
+#: functions.php:547
+msgid "View your shopping cart"
+msgstr "Ukázať košík"
+
+#: functions.php:597
+msgid "My Account"
+msgstr "Môj účet"
+
+#: lib/dashboard.php:73 lib/dashboard.php:117
+#, php-format
+msgid "Thank you for installing %s."
+msgstr "Vďaka za používanie témy %s"
+
+#: lib/dashboard.php:80
+#, php-format
+msgid "Get started with %s"
+msgstr "Začíname s %s"
+
+#: lib/dashboard.php:123
+#, php-format
+msgid ""
+"To take full advantage of all the features this theme has to offer, please "
+"install and activate the %s plugin."
+msgstr ""
+"Ak chcete naplno využiť funkcie ktoré táto šablóna ponúka, nainštalujte a "
+"aktivujte %s plugin prosím."
+
+#: lib/dashboard.php:126 lib/futurio-plugin-install.php:29
+msgid "Activated"
+msgstr "Aktivovaný"
+
+#: lib/dashboard.php:126 lib/futurio-plugin-install.php:40
+msgid "Activate"
+msgstr "Aktivovať"
+
+#: lib/dashboard.php:126
+msgid "Install"
+msgstr "Inštalovať"
+
+#: lib/futurio-plugin-install.php:55
+msgid "Install now"
+msgstr "Nainštalovať teraz"
+
+#: lib/futurio-plugin-install.php:75
+msgid "Learn more"
+msgstr "Dozvedieť sa viac"
+
+#: lib/wp_bootstrap_navwalker.php:326
+msgid "Add a menu"
+msgstr "Pridať menu"
+
+#: search.php:11
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Výsledky hľadania pre: %s"
+
+#: template-parts/template-part-mainmenu.php:12
+msgid "Menu"
+msgstr "Menu"
+
+#: template-parts/template-part-postauthor.php:4
+msgid "About The Author"
+msgstr "O autorovi"
+
+msgid "Select"
+msgstr "Vybrať"

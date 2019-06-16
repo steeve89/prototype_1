@@ -34,9 +34,6 @@ if(strlen($show_header_at) && $show_header_at > 0){
 ?>
 <header id="header" class="<?php echo esc_attr( $header_classes ); ?>"<?php apollo13framework_schema_args( 'header' ); ?>>
 	<div class="head">
-            <div class="service-client">
-                <img src="<?php echo get_template_directory_uri();?>/images/telephone.png" alt=""/><?php echo __('SERVICE CLIENT AU +33 00 00 00 00', 'rife-free'); ?>
-            </div>
             <div class="header-left">
 		<div class="logo-container"<?php apollo13framework_schema_args('logo'); ?>><?php apollo13framework_header_logo(); ?></div>
 		<!--<nav id="access" class="navigation-bar"<?php //apollo13framework_schema_args('navigation'); ?>>--><!-- this element is need in HTML even if menu is disabled -->

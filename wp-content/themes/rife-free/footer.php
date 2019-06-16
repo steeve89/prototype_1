@@ -40,6 +40,61 @@ apollo13framework_footer_for_site_modules();
     .layout-full #content, .layout-full_fixed #content, .layout-full_padding #content, .default404 .page-background, body.password-protected .page-background, .posts-list.search-no-results .layout-full #content, .posts-list.search-no-results .layout-full_fixed #content, .posts-list.search-no-results .layout-full_padding #content, .bricks-frame .formatter, .posts_horizontal .archive-item, .variant-under .caption, .works-list-page .pre-content-box, .single-album .album-content, .single-album .formatter { background: none; }
     .layout-parted .content-box, .albums-list-page .pre-content-box, .posts-list .layout-full_padding #secondary, .posts-list .layout-full_fixed #secondary, .posts-list .layout-full #secondary, .layout-parted #secondary, .posts-list.search-no-results .layout-parted .content-box { background: #fff; }
     #footer { background: #454545; }
+    @media only screen and (max-width: 768px) {
+        .posts-list .layout-full.with-sidebar .content-box, 
+        .posts-list .layout-full_fixed.with-sidebar .content-box, 
+        .posts-list .layout-full_padding.with-sidebar .content-box {
+            display: block;
+            width: 100%;
+            padding-bottom: 10px; 
+	}
+	.posts-list #secondary{
+            display: block;
+            width: 100%;
+	}
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .posts-list .layout-full.with-sidebar .content-box, 
+        .posts-list .layout-full_fixed.with-sidebar .content-box, 
+        .posts-list .layout-full_padding.with-sidebar .content-box {
+            display: block;
+            width: 100%;
+            padding-bottom: 10px;
+	}
+	.posts-list #secondary {
+            display: block;
+            width: 100%;
+	}
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .posts-list .layout-full.with-sidebar .content-box,
+        .posts-list .layout-full_fixed.with-sidebar .content-box, 
+        .posts-list .layout-full_padding.with-sidebar .content-box {
+            display: block;
+            width: 100%;
+            padding-bottom: 10px;
+	}
+	.posts-list #secondary{
+            display: block;
+            width: 100%;
+	}
+    }
+    
+    @media only screen and (max-width: 400px) {
+        .posts-list .layout-full.with-sidebar .content-box,
+        .posts-list .layout-full_fixed.with-sidebar .content-box, 
+        .posts-list .layout-full_padding.with-sidebar .content-box {
+            display: block;
+            width: 100%;
+            padding-bottom: 10px;
+	}
+	.posts-list #secondary {
+            display: block;
+            width: 100%;
+	}
+    }
 </style>
 </body>
 </html>

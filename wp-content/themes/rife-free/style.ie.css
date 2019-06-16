@@ -21,7 +21,7 @@
 }
 /* SLIDER */
 .slider-container {
-    margin-top: 138px;
+    margin-top: 114px;
 }
 .left, .right {  
     
@@ -58,4 +58,159 @@
 }
 .right-sidebar #secondary{
 	margin-left: 7px;
+}
+
+@media only screen and (max-width: 818px) {
+    .slider-container {
+        margin-top: 153px;
+    }
+}
+
+@media only screen and (max-width: 768px) { 
+    .posts-list .layout-full.with-sidebar .content-box, 
+    .posts-list .layout-full_fixed.with-sidebar .content-box, 
+    .posts-list .layout-full_padding.with-sidebar .content-box {
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .posts-list .whole-layout #mid #content #col-mask .content-box {
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+    }    
+    .posts-list #secondary {
+        display: block;
+        width: 100%;
+    }
+    #secondary .widget {
+        display: inline-block;
+        width: 48%;
+        float: left;
+        margin-right: 1%;
+    }
+    #secondary .widget:nth-child(even){
+        margin-left: 3.9%;
+    }
+    #secondary .widget:nth-child(odd){
+        clear: left;
+    }
+    .slider-container {
+        margin-top: 154px;
+    }
+}
+
+@media only screen and (max-width: 726px) {
+    .slider-container {
+        margin-top: 194px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .posts-list .layout-full.with-sidebar .content-box, 
+    .posts-list .layout-full_fixed.with-sidebar .content-box, 
+    .posts-list .layout-full_padding.with-sidebar .content-box {
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .posts-list .whole-layout #mid #content #col-mask .content-box {
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .posts-list #secondary {
+        display: block;
+        width: 100%;
+    }
+    #secondary .widget{
+        display: inline-block;
+        width: 48%;
+        float: left;
+        margin-right: 1%;
+    }
+    #secondary .widget:nth-child(even){
+        margin-left: 3.9%;
+    }
+    #secondary .widget:nth-child(odd){
+        clear: left;
+    }
+    .slider-container {
+        margin-top: 154px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .slider-container {
+        margin-top: 194px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .posts-list .layout-full.with-sidebar .content-box,
+    .posts-list .layout-full_fixed.with-sidebar .content-box, 
+    .posts-list .layout-full_padding.with-sidebar .content-box {
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .posts-list .whole-layout #mid #content #col-mask .content-box {
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .posts-list #secondary{
+        display: block;
+        width: 100%;
+    }
+    #secondary .widget{
+        display: block;
+        width: 100%;
+        float: left;
+    }
+    #secondary .widget:nth-child(even){
+        margin-left: 3.9%;
+    }
+    #secondary .widget:nth-child(odd){
+        clear: left;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .posts-list .layout-full.with-sidebar .content-box,
+    .posts-list .layout-full_fixed.with-sidebar .content-box, 
+    .posts-list .layout-full_padding.with-sidebar .content-box {
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .posts-list .whole-layout #mid #content #col-mask .content-box {
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+    } 
+    .posts-list #secondary {
+        display: block;
+        width: 100%;
+    }
+    #secondary .widget {
+        display: block;
+        width: 100%;
+        float: left;
+    }
+    #secondary .widget:nth-child(even){
+        margin-left: 3.9%;
+    }
+    #secondary .widget:nth-child(odd){
+        clear: left;
+    }
+}
+@media only screen and (max-width: 295px) {
+    .slider-container {
+        margin-top: 235px;
+    }
+}
+@media only screen and (max-width: 269px) {
+    .slider-container {
+        margin-top: 276px;
+    }
 }

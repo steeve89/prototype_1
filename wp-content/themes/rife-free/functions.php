@@ -34,7 +34,11 @@ $apollo13framework_a13->start();
 //  Internationalisation
 load_theme_textdomain( 'rife-free', get_template_directory() . '/languages' );
 load_theme_textdomain( 'rife-free', get_stylesheet_directory() . '/languages' );
-
+//  GET FORM
+add_filter('get_search_form', "remove_text_search");
+function remove_text_search($arg){
+    return str_replace('Search', __('Search', 'rife-free'), $arg);
+}
 //  TESTS UNITAIRES
 //  Fonction pour réécrire les titres des pages
 /*function test(){    
