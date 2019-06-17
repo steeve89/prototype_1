@@ -1,4 +1,4 @@
-1-	Nom du produit
+1-	Nom du produit \r\n
 Le nom du produit est « prototype de site vitrine ».
 
 2-	Description du produit
