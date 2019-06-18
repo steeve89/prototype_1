@@ -20,9 +20,10 @@ Les bonnes raisons d’acquérir ce produit se présente comme suit :
 -	Il subit des changements en fonction des besoins du marché.
 
 5-	A qui s’adresse ce produit ?  
-Ce produit est destiné aux entreprises et sociétés.
-6-	Prix du produit
-Le prix pour les entreprises et sociétés est de : 75 euros (100 $).
+Ce produit est destiné aux entreprises et sociétés.  
+
+6-	Prix du produit  
+Le prix pour les entreprises et sociétés est de : 75 euros (100 $).  
 Le prix pour les revendeurs est de : 60 euros (80 $).
 
 7-	Comment acquérir ce produit ?  
